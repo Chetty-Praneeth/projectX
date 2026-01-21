@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/event" element={<Events />} />
+          <Route path="/events" element={<Events />} />
           <Route path="/events/new" element={<ProposeEvent />} />
           <Route path="/events/:id" element={<EventDetail />} />
           <Route path="/calendar" element={<EventCalendar />} />
